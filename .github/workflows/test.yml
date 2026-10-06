@@ -1,0 +1,35 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.11", "3.12", "3.13", "3.14"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Unit tests
+        run: python -B -m unittest -v
+      - name: Sample regenerates byte-for-byte
+        shell: bash
+        run: |
+          python -B make_sample.py
+          git diff --exit-code -- input
+      - name: Expected outputs reproduce byte-for-byte
+        shell: bash
+        run: |
+          python -B csv_cleaner.py input/messy_customers.csv --out "$RUNNER_TEMP/ru" --lang ru
+          python -B csv_cleaner.py input/messy_customers.csv --out "$RUNNER_TEMP/en" --lang en
+          python -B csv_cleaner.py input/messy_customers.csv --out "$RUNNER_TEMP/fr" --lang fr
+          diff -r "$RUNNER_TEMP/ru" expected_output
+          diff -r "$RUNNER_TEMP/en" expected_output_en
+          diff -r "$RUNNER_TEMP/fr" expected_output_fr
