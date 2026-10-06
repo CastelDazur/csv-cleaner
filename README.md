@@ -1,5 +1,7 @@
 # CSV cleaner
 
+[![test](https://github.com/CastelDazur/csv-cleaner/actions/workflows/test.yml/badge.svg)](https://github.com/CastelDazur/csv-cleaner/actions/workflows/test.yml)
+
 Turns a messy customer CSV export (mixed date formats, `1,794.71` / `1788,62 EUR` amounts, phones in four notations, duplicates) into one consistent file, plus a log of every change and a short list of values a person must decide on. Nothing is guessed silently.
 
 This is a **bounded demo on synthetic data**: standard library only, 25 tests, fictional people and `example.com` addresses.
@@ -18,12 +20,16 @@ Real rows from `input/messy_customers.csv` and `expected_output_en/cleaned.csv`:
 
 ## Quick start
 
-```powershell
-py -3.14 csv_cleaner.py input/messy_customers.csv --out out --lang en
-py -3.14 -B -m unittest -v
+Python 3.11 or newer, standard library only. No network access, credentials, services or GPU are required.
+
+```bash
+python3 csv_cleaner.py input/messy_customers.csv --out out --lang en
+python3 -B -m unittest -v
 ```
 
-On macOS/Linux, use the agreed installed Python interpreter (usually `python3`); these operating systems have not been independently verified here. The script requires only the standard library. No network access, credentials, services or GPU are required.
+On Windows, use `py` instead of `python3`.
+
+Tested in CI on Windows, macOS and Linux with Python 3.11, 3.12, 3.13 and 3.14: the unit tests, plus a byte-for-byte rebuild of the sample and of all three expected outputs.
 
 Options: `--lang ru|en|fr` (default `ru`), `--month-first` (US numeric date order; default day-first), `--default-cc 33` (agreed country code for domestic numbers starting with zero). Confirm these conventions before processing customer data.
 
