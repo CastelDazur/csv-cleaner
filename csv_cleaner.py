@@ -339,10 +339,13 @@ def write_outputs(res: Result, out: Path, source: Path) -> None:
     lines += ["", t["h_flagged"], ""]
     lines += [f"{t['row'].format(n=r['source_row'])} ({r['name'] or t['noname']}): {'; '.join(r['review'])}"
               for r in flagged] or [t["none"]]
-    (out / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (out / "report.md").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
 def main(argv: list[str] | None = None) -> int:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(errors="replace")  # non-UTF-8 consoles must not crash after outputs are written
     p = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     p.add_argument("input", type=Path)
     p.add_argument("--out", type=Path, default=Path("out"))

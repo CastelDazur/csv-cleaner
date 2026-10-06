@@ -49,4 +49,4 @@ header = [" Customer Name ", "E-mail", "Phone number", "Signup date", "Order tot
 # разделитель ';' и cp1252, как отдаёт французский Excel
 lines = [";".join(header)] + [";".join(r) for r in rows]
 out.write_bytes(("\r\n".join(lines) + "\r\n").encode("cp1252"))
-print(f"{out}: {len(rows)} строк данных")
+print(f"{out}: {len(rows)} data rows")
