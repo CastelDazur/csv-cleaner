@@ -1,0 +1,37 @@
+name,email,phone,signup_date,order_total,country,source_row,needs_review
+Jonas Kovalenko,jonas.kovalenko0@example.com,+33639985908,2025-02-14,188.12,France,2,
+Iryna Petit,iryna.petit1@example.com,+33639989960,2024-09-14,1103.74,Ukraine,3,
+Pierre Brown,pierre.brown2@example.com,+33639983518,2024-10-14,1788.62,Germany,4,
+Jonas Moreau,jonas.moreau3@example.com,+33639983194,2025-12-23,1601.34,France,5,
+Iryna Petit,iryna.petit4@example.com,+33639981895,2025-10-24,185.25,United Kingdom,6,
+Luc Dubois,not-an-email,+33639986507,2024-10-18,159.54,United Kingdom,7,email: неверный формат
+Olena Rossi,olena.rossi6@example.com,+33639986842,2025-12-21,1794.71,United Kingdom,8,
+Olena Dubois,olena.dubois7@example.com,+33639989244,2026-07-17,1603.58,Germany,9,
+Olena Shevchenko,olena.shevchenko8@example.com,+33639986661,2024-01-25,552.26,France,10,
+Pierre Weber,pierre.weber9@example.com,+33639988159,31/02/2025,394.41,Germany,11,signup_date: формат не распознан
+Tom Weber,tom.weber10@example.com,+33639987412,2025-12-23,2177.79,Ukraine,12,
+Anna Rossi,anna.rossi11@example.com,+33639984148,2024-06-18,1673.39,Spain,13,country: нет в справочнике
+Marco Rossi,marco.rossi12@example.com,+33639985004,2026-04-21,n/a,Germany,14,order_total: не число
+Pierre Rossi,pierre.rossi13@example.com,+33639987990,2024-11-24,2389.92,United Kingdom,15,
+Luc Kovalenko,luc.kovalenko14@example.com,+33639986122,2026-03-13,2119.19,Spain,16,country: нет в справочнике
+Tom Moreau,tom.moreau15@example.com,+33639980018,2024-04-26,665.16,United Kingdom,17,
+Iryna Rossi,iryna.rossi16@example.com,+33639980579,2024-09-17,2293.00,France,18,
+Tom Martin,tom.martin17@example.com,12345,2024-09-16,506.49,France,19,phone: не удалось привести к международному формату
+Pierre Shevchenko,pierre.shevchenko18@example.com,+33639989898,2026-08-21,1336.04,Ukraine,20,
+Sophie Shevchenko,sophie.shevchenko19@example.com,+33639987513,2026-04-15,2060.04,France,21,
+Jonas Kovalenko,jonas.kovalenko20@example.com,+33639987232,2025-06-25,939.84,France,23,
+Jonas Martin,jonas.martin21@example.com,+33639985894,2024-04-16,701.16,France,24,
+Olena Bernard,olena.bernard22@example.com,+33639988975,2026-01-21,1119.94,United Kingdom,25,
+Anna Dubois,anna.dubois23@example.com,+33639981705,2024-10-21,1386.27,France,26,
+Olena Bernard,olena.bernard24@example.com,+33639983478,2024-06-21,101.86,France,27,
+Iryna Shevchenko,iryna.shevchenko25@example.com,+33639986786,2025-04-19,2186.78,Germany,28,
+Jonas Martin,jonas.martin26@example.com,+33639980168,2025-12-20,1209.42,France,29,
+Sophie Moreau,sophie.moreau27@example.com,+33639983043,2025-01-18,224.91,United Kingdom,30,
+Iryna Rossi,iryna.rossi28@example.com,+33639982690,2025-05-13,226.46,Ukraine,31,
+Olena Brown,olena.brown29@example.com,+33639982086,2026-11-13,228.06,France,32,
+Olena Weber,olena.weber30@example.com,+33639988374,2026-02-27,1733.31,France,33,
+Luc Bernard,luc.bernard31@example.com,+33639987617,2026-10-14,208.08,France,34,
+Jonas Bernard,jonas.bernard32@example.com,+33639980707,2024-12-16,767.46,United Kingdom,35,
+Luc Moreau,luc.moreau33@example.com,+33639987047,2025-05-27,2407.69,France,36,
+Tom Dubois,tom.dubois34@example.com,+33639989841,2025-08-20,70.10,France,37,
+Luc Moreau,luc.moreau35@example.com,+33639985150,2024-07-23,1874.14,United Kingdom,38,

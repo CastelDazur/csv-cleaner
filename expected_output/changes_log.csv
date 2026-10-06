@@ -1,0 +1,172 @@
+source_row,column,old,new,rule
+2,name,  JONAS  KOVALENKO ,Jonas Kovalenko,пробелы/регистр
+2,email, Jonas.Kovalenko0@example.com ,jonas.kovalenko0@example.com,trim+lower
+2,phone,+33 639985908,+33639985908,международный формат
+2,signup_date,14-02-2025,2025-02-14,дата -> ISO
+2,order_total,"188,12",188.12,сумма -> 0.00
+3,email, Iryna.Petit1@example.com ,iryna.petit1@example.com,trim+lower
+3,phone,+33 639989960,+33639989960,международный формат
+3,signup_date,14.9.2024,2024-09-14,дата -> ISO
+3,order_total,"1103,74",1103.74,сумма -> 0.00
+3,country,ua,Ukraine,страна -> справочник
+4,name,  PIERRE  BROWN ,Pierre Brown,пробелы/регистр
+4,email, Pierre.Brown2@example.com ,pierre.brown2@example.com,trim+lower
+4,phone,06 39 98 35 18,+33639983518,международный формат
+4,signup_date,14-10-2024,2024-10-14,дата -> ISO
+4,order_total,"1788,62 EUR",1788.62,сумма -> 0.00
+5,name,jonas moreau,Jonas Moreau,пробелы/регистр
+5,email,JONAS.MOREAU3@EXAMPLE.COM,jonas.moreau3@example.com,trim+lower
+5,phone,0033 639983194,+33639983194,международный формат
+5,signup_date,23.12.2025,2025-12-23,дата -> ISO
+6,email,IRYNA.PETIT4@EXAMPLE.COM,iryna.petit4@example.com,trim+lower
+6,phone,06.39.98.18.95,+33639981895,международный формат
+6,signup_date,24-10-2025,2025-10-24,дата -> ISO
+7,phone,06.39.98.65.07,+33639986507,международный формат
+7,signup_date,18-10-2024,2024-10-18,дата -> ISO
+7,order_total,"159,54",159.54,сумма -> 0.00
+8,name,  OLENA  ROSSI ,Olena Rossi,пробелы/регистр
+8,email,OLENA.ROSSI6@EXAMPLE.COM,olena.rossi6@example.com,trim+lower
+8,phone,0033 639986842,+33639986842,международный формат
+8,signup_date,21.12.2025,2025-12-21,дата -> ISO
+8,order_total,"1,794.71",1794.71,сумма -> 0.00
+8,country,UK,United Kingdom,страна -> справочник
+9,email,Olena.Dubois7@example.com,olena.dubois7@example.com,trim+lower
+9,phone,06 39 98 92 44,+33639989244,международный формат
+9,signup_date,17.7.2026,2026-07-17,дата -> ISO
+9,order_total,"1603,58 EUR",1603.58,сумма -> 0.00
+9,country,DE,Germany,страна -> справочник
+10,name,olena shevchenko,Olena Shevchenko,пробелы/регистр
+10,email, Olena.Shevchenko8@example.com ,olena.shevchenko8@example.com,trim+lower
+10,phone,0033 639986661,+33639986661,международный формат
+10,country,FRANCE,France,страна -> справочник
+11,name,pierre weber,Pierre Weber,пробелы/регистр
+11,email,Pierre.Weber9@example.com,pierre.weber9@example.com,trim+lower
+11,phone,06 39 98 81 59,+33639988159,международный формат
+11,order_total,€ 394.41,394.41,сумма -> 0.00
+11,country,DE,Germany,страна -> справочник
+12,name,  TOM  WEBER ,Tom Weber,пробелы/регистр
+12,email,Tom.Weber10@example.com,tom.weber10@example.com,trim+lower
+12,phone,06 39 98 74 12,+33639987412,международный формат
+12,signup_date,23-12-2025,2025-12-23,дата -> ISO
+12,order_total,"2177,79",2177.79,сумма -> 0.00
+12,country,ua,Ukraine,страна -> справочник
+13,name,anna rossi,Anna Rossi,пробелы/регистр
+13,email,ANNA.ROSSI11@EXAMPLE.COM,anna.rossi11@example.com,trim+lower
+13,phone,06.39.98.41.48,+33639984148,международный формат
+13,signup_date,18.6.2024,2024-06-18,дата -> ISO
+13,order_total,"1673,39",1673.39,сумма -> 0.00
+14,name,  MARCO  ROSSI ,Marco Rossi,пробелы/регистр
+14,email, Marco.Rossi12@example.com ,marco.rossi12@example.com,trim+lower
+14,phone,0033 639985004,+33639985004,международный формат
+14,signup_date,21.4.2026,2026-04-21,дата -> ISO
+14,country,DE,Germany,страна -> справочник
+15,email,Pierre.Rossi13@example.com,pierre.rossi13@example.com,trim+lower
+15,phone,0033 639987990,+33639987990,международный формат
+15,order_total,"2,389.92",2389.92,сумма -> 0.00
+15,country,UK,United Kingdom,страна -> справочник
+16,name,  LUC  KOVALENKO ,Luc Kovalenko,пробелы/регистр
+16,email, Luc.Kovalenko14@example.com ,luc.kovalenko14@example.com,trim+lower
+16,phone,+33 639986122,+33639986122,международный формат
+16,signup_date,13-03-2026,2026-03-13,дата -> ISO
+16,order_total,"2119,19",2119.19,сумма -> 0.00
+17,name,tom moreau,Tom Moreau,пробелы/регистр
+17,email,TOM.MOREAU15@EXAMPLE.COM,tom.moreau15@example.com,trim+lower
+17,phone,+33 639980018,+33639980018,международный формат
+17,order_total,"665,16",665.16,сумма -> 0.00
+18,name,iryna rossi,Iryna Rossi,пробелы/регистр
+18,email,IRYNA.ROSSI16@EXAMPLE.COM,iryna.rossi16@example.com,trim+lower
+18,phone,0033 639980579,+33639980579,международный формат
+18,order_total,"2,293.00",2293.00,сумма -> 0.00
+18,country,FRANCE,France,страна -> справочник
+19,email,Tom.Martin17@example.com,tom.martin17@example.com,trim+lower
+19,signup_date,16/09/2024,2024-09-16,дата -> ISO
+19,order_total,€ 506.49,506.49,сумма -> 0.00
+19,country,FR,France,страна -> справочник
+20,name,  PIERRE  SHEVCHENKO ,Pierre Shevchenko,пробелы/регистр
+20,email, Pierre.Shevchenko18@example.com ,pierre.shevchenko18@example.com,trim+lower
+20,phone,+33 639989898,+33639989898,международный формат
+20,signup_date,21-08-2026,2026-08-21,дата -> ISO
+20,order_total,"1336,04",1336.04,сумма -> 0.00
+20,country,ua,Ukraine,страна -> справочник
+21,email,SOPHIE.SHEVCHENKO19@EXAMPLE.COM,sophie.shevchenko19@example.com,trim+lower
+21,phone,0033 639987513,+33639987513,международный формат
+21,signup_date,15.4.2026,2026-04-15,дата -> ISO
+21,country,FRANCE,France,страна -> справочник
+23,name,  JONAS  KOVALENKO ,Jonas Kovalenko,пробелы/регистр
+23,email,Jonas.Kovalenko20@example.com,jonas.kovalenko20@example.com,trim+lower
+23,phone,0033 639987232,+33639987232,международный формат
+23,signup_date,25/06/2025,2025-06-25,дата -> ISO
+23,order_total,€ 939.84,939.84,сумма -> 0.00
+24,name,  JONAS  MARTIN ,Jonas Martin,пробелы/регистр
+24,email, Jonas.Martin21@example.com ,jonas.martin21@example.com,trim+lower
+24,phone,06 39 98 58 94,+33639985894,международный формат
+24,order_total,€ 701.16,701.16,сумма -> 0.00
+24,country,FR,France,страна -> справочник
+25,email,OLENA.BERNARD22@EXAMPLE.COM,olena.bernard22@example.com,trim+lower
+25,phone,06 39 98 89 75,+33639988975,международный формат
+25,signup_date,21/01/2026,2026-01-21,дата -> ISO
+26,name,  ANNA  DUBOIS ,Anna Dubois,пробелы/регистр
+26,email,Anna.Dubois23@example.com,anna.dubois23@example.com,trim+lower
+26,phone,0033 639981705,+33639981705,международный формат
+26,order_total,"1386,27",1386.27,сумма -> 0.00
+27,email,Olena.Bernard24@example.com,olena.bernard24@example.com,trim+lower
+27,phone,+33 639983478,+33639983478,международный формат
+27,signup_date,21.6.2024,2024-06-21,дата -> ISO
+27,country,FR,France,страна -> справочник
+28,email, Iryna.Shevchenko25@example.com ,iryna.shevchenko25@example.com,trim+lower
+28,phone,06.39.98.67.86,+33639986786,международный формат
+28,signup_date,19/04/2025,2025-04-19,дата -> ISO
+28,order_total,"2186,78",2186.78,сумма -> 0.00
+29,email,Jonas.Martin26@example.com,jonas.martin26@example.com,trim+lower
+29,phone,06.39.98.01.68,+33639980168,международный формат
+29,order_total,"1209,42",1209.42,сумма -> 0.00
+29,country,FRANCE,France,страна -> справочник
+30,email,SOPHIE.MOREAU27@EXAMPLE.COM,sophie.moreau27@example.com,trim+lower
+30,phone,06.39.98.30.43,+33639983043,международный формат
+30,signup_date,18-01-2025,2025-01-18,дата -> ISO
+31,email, Iryna.Rossi28@example.com ,iryna.rossi28@example.com,trim+lower
+31,phone,0033 639982690,+33639982690,международный формат
+31,signup_date,13/05/2025,2025-05-13,дата -> ISO
+31,order_total,"226,46 EUR",226.46,сумма -> 0.00
+31,country,ua,Ukraine,страна -> справочник
+32,name,  OLENA  BROWN ,Olena Brown,пробелы/регистр
+32,email,OLENA.BROWN29@EXAMPLE.COM,olena.brown29@example.com,trim+lower
+32,phone,+33 639982086,+33639982086,международный формат
+32,signup_date,13/11/2026,2026-11-13,дата -> ISO
+32,country,FR,France,страна -> справочник
+33,email,OLENA.WEBER30@EXAMPLE.COM,olena.weber30@example.com,trim+lower
+33,phone,06 39 98 83 74,+33639988374,международный формат
+33,order_total,"1733,31 EUR",1733.31,сумма -> 0.00
+34,email,LUC.BERNARD31@EXAMPLE.COM,luc.bernard31@example.com,trim+lower
+34,phone,06.39.98.76.17,+33639987617,международный формат
+34,signup_date,14/10/2026,2026-10-14,дата -> ISO
+34,order_total,"208,08 EUR",208.08,сумма -> 0.00
+34,country,FRANCE,France,страна -> справочник
+35,name,jonas bernard,Jonas Bernard,пробелы/регистр
+35,email, Jonas.Bernard32@example.com ,jonas.bernard32@example.com,trim+lower
+35,phone,06.39.98.07.07,+33639980707,международный формат
+35,signup_date,16-12-2024,2024-12-16,дата -> ISO
+35,order_total,"767,46 EUR",767.46,сумма -> 0.00
+36,name,  LUC  MOREAU ,Luc Moreau,пробелы/регистр
+36,email,Luc.Moreau33@example.com,luc.moreau33@example.com,trim+lower
+36,phone,06 39 98 70 47,+33639987047,международный формат
+36,signup_date,27/05/2025,2025-05-27,дата -> ISO
+36,order_total,"2407,69",2407.69,сумма -> 0.00
+37,email, Tom.Dubois34@example.com ,tom.dubois34@example.com,trim+lower
+37,phone,06.39.98.98.41,+33639989841,международный формат
+37,signup_date,20-08-2025,2025-08-20,дата -> ISO
+37,order_total,"70,10",70.10,сумма -> 0.00
+37,country,FR,France,страна -> справочник
+38,name,  LUC  MOREAU ,Luc Moreau,пробелы/регистр
+38,email,LUC.MOREAU35@EXAMPLE.COM,luc.moreau35@example.com,trim+lower
+38,phone,06.39.98.51.50,+33639985150,международный формат
+38,signup_date,23/07/2024,2024-07-23,дата -> ISO
+39,name,  PIERRE  BROWN ,Pierre Brown,пробелы/регистр
+39,email, Pierre.Brown2@example.com ,pierre.brown2@example.com,trim+lower
+39,phone,06 39 98 35 18,+33639983518,международный формат
+39,signup_date,14-10-2024,2024-10-14,дата -> ISO
+39,order_total,"1788,62 EUR",1788.62,сумма -> 0.00
+40,email,OLENA.DUBOIS7@EXAMPLE.COM,olena.dubois7@example.com,trim+lower
+40,signup_date,17.7.2026,2026-07-17,дата -> ISO
+40,order_total,"1603,58 EUR",1603.58,сумма -> 0.00
+40,country,DE,Germany,страна -> справочник

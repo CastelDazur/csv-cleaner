@@ -1,0 +1,40 @@
+ Customer Name ;E-mail;Phone number;Signup date;Order total (EUR);country
+  JONAS  KOVALENKO ; Jonas.Kovalenko0@example.com ;+33 639985908;14-02-2025;188,12;France
+Iryna Petit; Iryna.Petit1@example.com ;+33 639989960;14.9.2024;1103,74;ua
+  PIERRE  BROWN ; Pierre.Brown2@example.com ;06 39 98 35 18;14-10-2024;1788,62 EUR;Germany
+jonas moreau;JONAS.MOREAU3@EXAMPLE.COM;0033 639983194;23.12.2025;1601.34;France
+Iryna Petit;IRYNA.PETIT4@EXAMPLE.COM;06.39.98.18.95;24-10-2025;185.25;United Kingdom
+Luc Dubois;not-an-email;06.39.98.65.07;18-10-2024;159,54;United Kingdom
+  OLENA  ROSSI ;OLENA.ROSSI6@EXAMPLE.COM;0033 639986842;21.12.2025;1,794.71;UK
+Olena Dubois;Olena.Dubois7@example.com;06 39 98 92 44;17.7.2026;1603,58 EUR;DE
+olena shevchenko; Olena.Shevchenko8@example.com ;0033 639986661;2024-01-25;552.26;FRANCE
+pierre weber;Pierre.Weber9@example.com;06 39 98 81 59;31/02/2025;€ 394.41;DE
+  TOM  WEBER ;Tom.Weber10@example.com;06 39 98 74 12;23-12-2025;2177,79;ua
+anna rossi;ANNA.ROSSI11@EXAMPLE.COM;06.39.98.41.48;18.6.2024;1673,39;Spain
+  MARCO  ROSSI ; Marco.Rossi12@example.com ;0033 639985004;21.4.2026;n/a;DE
+Pierre Rossi;Pierre.Rossi13@example.com;0033 639987990;2024-11-24;2,389.92;UK
+  LUC  KOVALENKO ; Luc.Kovalenko14@example.com ;+33 639986122;13-03-2026;2119,19;Spain
+tom moreau;TOM.MOREAU15@EXAMPLE.COM;+33 639980018;2024-04-26;665,16;United Kingdom
+iryna rossi;IRYNA.ROSSI16@EXAMPLE.COM;0033 639980579;2024-09-17;2,293.00;FRANCE
+Tom Martin;Tom.Martin17@example.com;12345;16/09/2024;€ 506.49;FR
+  PIERRE  SHEVCHENKO ; Pierre.Shevchenko18@example.com ;+33 639989898;21-08-2026;1336,04;ua
+Sophie Shevchenko;SOPHIE.SHEVCHENKO19@EXAMPLE.COM;0033 639987513;15.4.2026;2060.04;FRANCE
+;;;;;
+  JONAS  KOVALENKO ;Jonas.Kovalenko20@example.com;0033 639987232;25/06/2025;€ 939.84;France
+  JONAS  MARTIN ; Jonas.Martin21@example.com ;06 39 98 58 94;2024-04-16;€ 701.16;FR
+Olena Bernard;OLENA.BERNARD22@EXAMPLE.COM;06 39 98 89 75;21/01/2026;1119.94;United Kingdom
+  ANNA  DUBOIS ;Anna.Dubois23@example.com;0033 639981705;2024-10-21;1386,27;France
+Olena Bernard;Olena.Bernard24@example.com;+33 639983478;21.6.2024;101.86;FR
+Iryna Shevchenko; Iryna.Shevchenko25@example.com ;06.39.98.67.86;19/04/2025;2186,78;Germany
+Jonas Martin;Jonas.Martin26@example.com;06.39.98.01.68;2025-12-20;1209,42;FRANCE
+Sophie Moreau;SOPHIE.MOREAU27@EXAMPLE.COM;06.39.98.30.43;18-01-2025;224.91;United Kingdom
+Iryna Rossi; Iryna.Rossi28@example.com ;0033 639982690;13/05/2025;226,46 EUR;ua
+  OLENA  BROWN ;OLENA.BROWN29@EXAMPLE.COM;+33 639982086;13/11/2026;228.06;FR
+Olena Weber;OLENA.WEBER30@EXAMPLE.COM;06 39 98 83 74;2026-02-27;1733,31 EUR;France
+Luc Bernard;LUC.BERNARD31@EXAMPLE.COM;06.39.98.76.17;14/10/2026;208,08 EUR;FRANCE
+jonas bernard; Jonas.Bernard32@example.com ;06.39.98.07.07;16-12-2024;767,46 EUR;United Kingdom
+  LUC  MOREAU ;Luc.Moreau33@example.com;06 39 98 70 47;27/05/2025;2407,69;France
+Tom Dubois; Tom.Dubois34@example.com ;06.39.98.98.41;20-08-2025;70,10;FR
+  LUC  MOREAU ;LUC.MOREAU35@EXAMPLE.COM;06.39.98.51.50;23/07/2024;1874.14;United Kingdom
+  PIERRE  BROWN ; Pierre.Brown2@example.com ;06 39 98 35 18;14-10-2024;1788,62 EUR;Germany
+Olena Dubois;OLENA.DUBOIS7@EXAMPLE.COM;;17.7.2026;1603,58 EUR;DE
